@@ -15,9 +15,7 @@ def create_Set(array):
 
   j = 0
   for i in range(0, len(setArr)):
-    
     while setArr[i] == None:
-      
       setArr[i] = array[j]
       j += 1
   
